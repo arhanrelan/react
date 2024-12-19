@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --color-primary: #f8f9fa;
+  --color-secondary: #5f6368;
+  --color-teriashry: #000000;
+  --color-fontawsome: #1967d2;
+  --font-weight: 500;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.col-sm-10 {
+  line-height: 1.89rem;
+}
+
+.col-sm-10 p {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.col-sm-10 p:hover {
+  text-decoration: underline;
+}
+
+.card_content p {
+  color: var(--color-teriashry);
+  font-size: 1.28rem;
+  font-weight: 600;
+}
+
+.card_text {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card_text:hover {
+  text-decoration: underline;
+}
+
+.card_content a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.colapse_text {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-description {
+  font-size: 1rem !important;
+}
+
+.span_text {
+  font-weight: 600;
+}
+
+.fa_Icon {
+  color: var(--color-fontawsome) !important;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.follow-up {
+  white-space: nowrap;
+}

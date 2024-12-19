@@ -1,0 +1,47 @@
+@import "rsuite/dist/rsuite.css";
+
+.span_text {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+input {
+    opacity: 1 !important;
+}
+
+/* Date Picker */
+.date_picker {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.react-calendar {
+    position: absolute;
+}
+
+.calendarWrap {
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.rs-picker-toggle.rs-btn.rs-btn-default {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+}
+
+
+
+.css-1s2u09g-control:hover {
+    border-color: #3498ff !important;
+}
+
+.css-1pahdxg-control {
+    border: 1px solid #2684FF !important;
+    box-shadow: 0 0 0 3px #d0e4fc !important;
+}
